@@ -118,11 +118,31 @@ footer {
     width: 100%;
     padding: 15px;
     color: var(--dark-blue-300);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     text-align: center;
 }
 a {
     text-decoration: none;
     color: var(--dark-blue-300);
+}
+footer>div {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    height: 32px;
+    color: var(--dark-blue-300);
+}
+.iconGh:hover {
+    transition: all 0.5s linear;
+    color: #171515;
+}
+.iconLd:hover {
+    transition: all 0.5s linear;
+    color: #0A66C2;
 }
 
 @media screen and (min-width: 765px) {

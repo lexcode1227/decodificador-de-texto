@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Decodificador de Texto</title>
+    <title>Encriptador de Texto</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Vector.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/158a38c1e4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
         <section class="contenedorPri">
             <header class="logo">
-                <img src="./Vector.png" alt="logo de Alura">
+                <img src="./src/Vector.png" alt="logo de Alura">
             </header>
             <div class="contenedor">
                 <textarea name="textoEntrada" id="textoEntrada" cols="30" rows="10">Ingrese el texto aqui</textarea>
                 <div class="requisito">
-                    <img class="icono" src="./informacion.png">
+                    <img class="icono" src="./src/informacion.png">
                     <p>Solo letras minúsculas y sin acentos</p>
                 </div>
                 <div class="btnContenedor">
@@ -28,7 +30,7 @@
         </section>
         <section class="contenedorSec">
             <div class="respuestaBox" id="inicialCard">
-                <img class="imagen" src="./Muñeco.png" alt="imagen de falta información">
+                <img class="imagen" src="./src/Muñeco.png" alt="imagen de falta información">
                 <h4>Ningún mensaje fue encontrado</h4>
                 <p>Ingresa el texto que deseas encriptar o desencriptar</p>
             </div>
@@ -40,6 +42,10 @@
     </main>
     <footer>
         <h4>Desarrollado por <a href="https://github.com/lexcode1227/decodificador-de-texto" target="_blank">@lexcode</a></h4>
+        <div>
+            <a href="https://github.com/lexcode1227" target="_blank"><i class="fa-brands fa-github icon iconGh"></i></a>
+            <a href="https://www.linkedin.com/in/henry-agustin-/" target="_blank"><i class="fa-brands fa-linkedin-in icon iconLd"></i></a>
+        </div>
     </footer>
     <script src="./index.js"></script>
 </body>
