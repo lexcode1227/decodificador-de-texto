@@ -137,11 +137,11 @@ footer>div {
     color: var(--dark-blue-300);
 }
 .iconGh:hover {
-    transition: all 0.5s linear;
+    transition: all 0.7s linear;
     color: #171515;
 }
 .iconLd:hover {
-    transition: all 0.5s linear;
+    transition: all 0.7s linear;
     color: #0A66C2;
 }
 
@@ -170,6 +170,7 @@ footer>div {
     .contenedorPri {
         width: 65%;
         align-items: flex-end;
+        height: 93vh;
     }
     .contenedor{
         width: 100%;
