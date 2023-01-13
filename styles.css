@@ -71,10 +71,11 @@ p {
     border: solid 1px var(--dark-blue-300);
     border-radius: 20px;
     cursor: pointer;
+    transform: scale(1);
 }
 .btn:hover {
-    font-weight: bold;
-    transition: all 0.5s linear;
+    transform: scale(1.05);
+    transition: all 0.3s linear;
 }
 .encriptar {
     color: white;
@@ -137,11 +138,11 @@ footer>div {
     color: var(--dark-blue-300);
 }
 .iconGh:hover {
-    transition: all 0.7s linear;
+    transition: all 0.7s cubic-bezier(0.88, 0.89, 0.49, 1.14);
     color: #171515;
 }
 .iconLd:hover {
-    transition: all 0.7s linear;
+    transition: all 0.7s cubic-bezier(0.88, 0.89, 0.49, 1.14);
     color: #0A66C2;
 }
 
@@ -191,6 +192,9 @@ footer>div {
     }
 }
 @media screen and (min-width: 1440px) {
+    body {
+        margin: 0 100px;
+    }
     main{
         flex-direction: row;
     }
@@ -213,6 +217,9 @@ footer>div {
 }
 
 @media screen and (min-width: 1800px) {
+    body {
+        margin: 0 130px;
+    }
     .contenedorPri {
         height: 93vh;
     }
